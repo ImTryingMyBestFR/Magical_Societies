@@ -8,6 +8,8 @@ ManaInfusion.removeRecipe(<minecraft:leather>);
 mods.botania.ManaInfusion.addAlchemy(<minecraft:leather>, <ore:flesh>, 600);
 ManaInfusion.removeRecipe(<botania:grassseeds:2>);
 mods.botania.ManaInfusion.addAlchemy(<botania:grassseeds:2>, <ore:mushroom>, 6500);
+ManaInfusion.removeRecipe(<botania:manaresource:16>);
+ManaInfusion.addInfusion(<botania:manaresource:16>, <ore:string>, 5000);
 
 if(loadedMods.contains("biomesoplenty")){
     mods.botania.ManaInfusion.addAlchemy(<biomesoplenty:plant_1:10>, <biomesoplenty:double_plant>,400);

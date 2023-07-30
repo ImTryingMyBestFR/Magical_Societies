@@ -26,6 +26,11 @@ for plate,recipe in plates{
     }
     
 }
+recipes.addShaped(<embers:cinder_plinth>,[
+[null,<embers:plate_lead>,null],
+[<embers:ingot_silver>,<minecraft:furnace>,<embers:ingot_silver>],
+[<embers:plate_lead>,<embers:block_caminite_brick>,<embers:plate_lead>]]);
+
 if (loadedMods.contains("iceandfire")){
     recipes.remove(<embers:sword_silver>);
     recipes.remove(<embers:hoe_silver>);
