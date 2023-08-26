@@ -1,2 +1,4 @@
 # Magical_Societies
-This is a repository made for the Magical Societies modpack which can be found on curse forge (upload pending). Anythign submitted here is free to use for anyone for anything. Here you can also submit suggestions for changes or additions.
+Magical Societies is a work in progress factions style civ building modback oriented around sects of magick. At the same time it serves as my first experience into modpack and mod development as well as project manaemnet. Anything you find in this repository as long as it is made by me you can reuse to your hearts desire. I will try to clean up the guthub eventually and more properly upload some scripts so they can be more easily added to other modpacks.
+
+If you have any suggestions or bugs to report please do so through the issue tracker.
