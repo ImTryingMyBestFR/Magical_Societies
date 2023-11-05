@@ -1,0 +1,18 @@
+{
+    "priority":true,
+    "name":"Rudamentary Snare",
+    "icon":"bloodmagic:soul_snare",
+    "category":"patchouli:getting_started",
+    "pages":[
+        {
+            "type":"spotlight",
+            "item":"bloodmagic:soul_snare",
+            "text":"Rudamentary Snares are used to extract the will that animates the undead. By throwing enough snares at a reanimated corpse, it will eventually become ensnared. Ensared enemies emmit $(l)white particles$(). In this ensnared state, their death will yield their creator's $(l:#demonic_will)demonic will$()"
+        },
+        {
+            "type":"crafting",
+            "recipe":"bloodmagic:soul_snare"
+        }
+
+    ]
+}
