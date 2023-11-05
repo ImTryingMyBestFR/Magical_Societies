@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=bottom": { "model": "contenttweaker:block/half_slab_oak_blinds" },
+        "half=top": { "model": "contenttweaker:block/upper_slab_oak_blinds" }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+      "model": "cube_column",
+      "textures": {
+        "end":"biomesoplenty:blocks/hellbark_log_top",
+        "side":"contenttweaker:blocks/runed_hellbark"
+      },
+      "uvlock": true,
+      "transform": "forge:default-block"
+    },
+    "variants": {
+      "normal": [{}],
+      "inventory": [{}]
+    }
+}
