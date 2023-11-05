@@ -46,10 +46,75 @@ val fur_gear={
     <mocreatures:furchest>:[[<ore:furWolf>,null,<ore:furWolf>],[<ore:furWolf>,<ore:furWolf>,<ore:furWolf>],[<ore:furWolf>,<ore:furWolf>,<ore:furWolf>]],
     <mocreatures:furhelmet>:[[<ore:furWolf>,<ore:furWolf>,<ore:furWolf>],[<ore:furWolf>,null,<ore:furWolf>]],
     <mocreatures:furlegs>:[[<ore:furWolf>,<ore:furWolf>,<ore:furWolf>],[<ore:furWolf>,null,<ore:furWolf>],[<ore:furWolf>,null,<ore:furWolf>]],
-    <mocreatures:furboots>:[[<ore:furWolf>,null,<ore:furWolf>],[<ore:furWolf>,null,<ore:furWolf>]]
+    <mocreatures:furboots>:[[<ore:furWolf>,null,<ore:furWolf>],[<ore:furWolf>,null,<ore:furWolf>]],
+    <mocreatures:hidechest>:[[<ore:furBear>,null,<ore:furBear>],[<ore:furBear>,<ore:furBear>,<ore:furBear>],[<ore:furBear>,<ore:furBear>,<ore:furBear>]],
+    <mocreatures:hidehelmet>:[[<ore:furBear>,<ore:furBear>,<ore:furBear>],[<ore:furBear>,null,<ore:furBear>]],
+    <mocreatures:hidelegs>:[[<ore:furBear>,<ore:furBear>,<ore:furBear>],[<ore:furBear>,null,<ore:furBear>],[<ore:furBear>,null,<ore:furBear>]],
+    <mocreatures:hideboots>:[[<ore:furBear>,null,<ore:furBear>],[<ore:furBear>,null,<ore:furBear>]]
 }as IIngredient[][][IItemStack];
 
 for gear,recipe in fur_gear{
     recipes.remove(gear);
     recipes.addShaped(gear.displayName,gear,recipe);
+}
+if(loadedMods.contains("betteranimalsplus")){    
+    val eggs=[
+        <mocreatures:mocegg:66>,
+        <mocreatures:mocegg:65>,
+        <mocreatures:mocegg:64>,
+        <mocreatures:mocegg:63>,
+        <mocreatures:mocegg:62>,
+        <mocreatures:mocegg:61>,
+        <mocreatures:mocegg:60>,
+        <mocreatures:mocegg:59>,
+        <mocreatures:mocegg:58>,
+        <mocreatures:mocegg:57>,
+        <mocreatures:mocegg:11>,
+        <mocreatures:mocegg:21>,
+        <mocreatures:mocegg:22>,
+        <mocreatures:mocegg:23>,
+        <mocreatures:mocegg:24>,
+        <mocreatures:mocegg:25>,
+        <mocreatures:mocegg:26>,
+        <mocreatures:mocegg:27>,
+        <mocreatures:mocegg:33>,
+        <mocreatures:mocegg:41>,
+        <mocreatures:mocegg:42>,
+        <mocreatures:mocegg:43>,
+        <mocreatures:mocegg:44>,
+        <mocreatures:mocegg:45>,
+        <mocreatures:mocegg:50>,
+        <mocreatures:mocegg:51>,
+        <mocreatures:mocegg:52>,
+        <mocreatures:mocegg:53>,
+        <mocreatures:mocegg:54>,
+        <mocreatures:mocegg:55>,
+        <mocreatures:mocegg:56>,
+        <mocreatures:mocegg:90>,
+        <mocreatures:mocegg:72>,
+        <mocreatures:mocegg:71>,
+        <mocreatures:mocegg:70>,
+        <mocreatures:mocegg:86>,
+        <mocreatures:mocegg:85>,
+        <mocreatures:mocegg:84>,
+        <mocreatures:mocegg:83>,
+        <mocreatures:mocegg:82>,
+        <mocreatures:mocegg:81>,
+        <mocreatures:mocegg:80>,
+        <mocreatures:mocegg:9>,
+        <mocreatures:mocegg:8>,
+        <mocreatures:mocegg:7>,
+        <mocreatures:mocegg:6>,
+        <mocreatures:mocegg:5>,
+        <mocreatures:mocegg:4>,
+        <mocreatures:mocegg:3>,
+        <mocreatures:mocegg:2>,
+        <mocreatures:mocegg:1>,
+        <mocreatures:mocegg>
+        ]as IIngredient[];
+    for egg in eggs{
+        furnace.remove(<mocreatures:omelet>, egg);
+    }
+    furnace.remove(<mocreatures:omelet>,<minecraft:egg>);
+    furnace.addRecipe(<mocreatures:omelet>,<betteranimalsplus:fried_egg>,0.35);
 }

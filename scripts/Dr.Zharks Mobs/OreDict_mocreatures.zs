@@ -6,3 +6,4 @@ import crafttweaker.oredict.IOreDictEntry;
 <ore:ingotSilver>.remove(<mocreatures:ancientsilveringot>);
 <ore:nuggetSilver>.remove(<mocreatures:ancientsilvernugget>);
 <ore:furWolf>.add(<mocreatures:fur>);
+<ore:furBear>.add(<mocreatures:hide>);
