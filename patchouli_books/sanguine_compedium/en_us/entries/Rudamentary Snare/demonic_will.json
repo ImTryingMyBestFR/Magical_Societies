@@ -1,0 +1,13 @@
+{
+    "name":"Demonic Will",
+    "icon":"bloodmagic:monster_soul:0",
+    "category":"patchouli:getting_started",
+    "anchor":"demonic_will",
+    "pages":[
+        {
+            "type":"text",
+            "text":"cum"
+        }
+
+    ]
+}

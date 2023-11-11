@@ -1,6 +1,8 @@
 #
 #
 ## Items
+
+#Barks
 item.contenttweaker.aspectus_thaumium.name=Thaumium Aspectus
 item.contenttweaker.bark_willow.name=Willow Bark
 item.contenttweaker.bark_sacred_oak.name=Sacred Oak Bark
@@ -23,25 +25,45 @@ item.contenttweaker.bark_silverwood.name=Silver Bark
 item.contenttweaker.bark_charred.name=Charred Bark
 item.contenttweaker.bark_ironwood.name=Ironwood Bark
 item.contenttweaker.bark_olive.name=Olive Bark
+#Clusters
 item.contenttweaker.cluster_nickel.name=Native Nickel Cluster
 item.contenttweaker.cluster_aluminium.name=Native Aluminium Cluster
+#Raw Metals
+item.contenttweaker.raw_iron.name=Raw Iron
+item.contenttweaker.raw_gold.name=Raw Gold
+item.contenttweaker.raw_copper.name=Raw Copper
+item.contenttweaker.raw_silver.name=Raw Silver
+item.contenttweaker.raw_aluminium.name=Raw Aluminium
+#Reliquary/Spirit Bags
+item.contenttweaker.reliquary.name=Reliquary
+item.contenttweaker.spirit_bag.name=Spirit Bag
 #
 ## Fluids
 fluid.molten_thaumium=Molten Thaumium
 #
 ## Blocks
-tile.contenttweaker.runed_cherry.name=Runed Cherry
-tile.contenttweaker.runed_dead_log.name=Runed Dead Log
-tile.contenttweaker.runed_ebony.name=Runed Ebony
-tile.contenttweaker.runed_eucalyptus.name=Runed Eucalyptus
-tile.contenttweaker.runed_hellbark.name=Runed Hellbark
-tile.contenttweaker.runed_magic_log.name=Runed Magic Log
-tile.contenttweaker.runed_mangrove.name=Runed Mangrove
-tile.contenttweaker.runed_pine.name=Runed Pine
-tile.contenttweaker.runed_umbran.name=Runed umbran
-tile.contenttweaker.runed_fir.name=Runed Fir
-tile.contenttweaker.runed_jacaranda.name=Runed Jacaranda
-tile.contenttweaker.runed_mahogany.name=Runed Mahogany
-tile.contenttweaker.runed_palm.name=Runed Palm
-tile.contenttweaker.runed_sacred_oak.name=Runed Sacred Oak
-tile.contenttweaker.runed_willow.name=Runed Willow
+#Runed Logs
+#tile.contenttweaker.runed_cherry.name=Runed Cherry
+#tile.contenttweaker.runed_dead_log.name=Runed Dead Log
+#tile.contenttweaker.runed_ebony.name=Runed Ebony
+#tile.contenttweaker.runed_eucalyptus.name=Runed Eucalyptus
+#tile.contenttweaker.runed_hellbark.name=Runed Hellbark
+#tile.contenttweaker.runed_magic_log.name=Runed Magic Log
+#tile.contenttweaker.runed_mangrove.name=Runed Mangrove
+#tile.contenttweaker.runed_pine.name=Runed Pine
+#tile.contenttweaker.runed_umbran.name=Runed umbran
+#tile.contenttweaker.runed_fir.name=Runed Fir
+#tile.contenttweaker.runed_jacaranda.name=Runed Jacaranda
+#tile.contenttweaker.runed_mahogany.name=Runed Mahogany
+#tile.contenttweaker.runed_palm.name=Runed Palm
+#tile.contenttweaker.runed_sacred_oak.name=Runed Sacred Oak
+#tile.contenttweaker.runed_willow.name=Runed Willow
+#Raw Metal Blocks
+tile.contenttweaker.raw_iron_block.name=Raw Iron Block
+tile.contenttweaker.raw_gold_block.name=Raw Gold Block
+tile.contenttweaker.raw_copper_block.name=Raw Copper Block
+tile.contenttweaker.raw_silver_block.name=Raw Silver Block
+tile.contenttweaker.raw_aluminium_block.name=Raw Aluminium Block
+tile.contenttweaker.raw_nickel_block.name=Raw Nickel Block
+#Test
+tile.contenttweaker.slab_oak_blinds.name=Oak Blinds Slab
